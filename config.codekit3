@@ -15,6 +15,16 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/DSCF9070 2.jpg": {
+		"ft": 16384,
+		"iS": 1405106,
+		"oA": 0,
+		"oAP": "\/DSCF9070 2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/aizawa-family-end.jpg": {
 		"ft": 16384,
 		"iS": 384433,
@@ -541,6 +551,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/script-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -589,7 +617,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 516854789,
-	"displayValue": "wedding-website",
+	"displayValue": "JC_Wedding",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-cocaine",
 	"lastBuiltDate": 516885574

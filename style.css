@@ -62,8 +62,11 @@ h1 {
     height: 100vh;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: contain; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .picturepage .parallax {
+        background-attachment: scroll; } }
   .picturepage .parallax-1 {
     background-image: url("img/schedule-bg.png"); }
   .picturepage .parallax-2 {
