@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".frontimage").click(function(){$(".picturepage").fadeIn(3e3),$(".frontimage").fadeOut(3e3)})}),$(window).scroll(function(){(window.pageYOffset||document.documentElement.scrollTop)<30?$(".arrow").stop(!0,!0).fadeIn(3e3):$(".arrow").stop(!0,!0).fadeOut(3e3)});
