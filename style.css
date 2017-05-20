@@ -62,7 +62,7 @@ h1 {
     height: 100vh;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: contain; }
   .picturepage .parallax-1 {
     background-image: url("img/schedule-bg.png"); }
