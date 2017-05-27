@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/assets\/bouquet.jpg": {
+		"ft": 16384,
+		"iS": 226215,
+		"oA": 0,
+		"oAP": "\/assets\/bouquet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/bus-bg.png": {
 		"ft": 32768,
 		"iS": 12809,
@@ -146,6 +156,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/portrait-JC.jpg": {
+		"ft": 16384,
+		"iS": 300803,
+		"oA": 0,
+		"oAP": "\/assets\/portrait-JC.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/puzzle-bg.png": {
