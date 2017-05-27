@@ -9,6 +9,94 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/assets\/bus-bg.png": {
+		"ft": 32768,
+		"iS": 12809,
+		"oA": 0,
+		"oAP": "\/assets\/bus-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/dessert.png": {
+		"ft": 32768,
+		"iS": 12105,
+		"oA": 0,
+		"oAP": "\/assets\/dessert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/fork-bg.png": {
+		"ft": 32768,
+		"iS": 15072,
+		"oA": 0,
+		"oAP": "\/assets\/fork-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/frontletters\/a.png": {
+		"ft": 32768,
+		"iS": 17690,
+		"oA": 0,
+		"oAP": "\/assets\/frontletters\/a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/frontletters\/I.png": {
+		"ft": 32768,
+		"iS": 9250,
+		"oA": 0,
+		"oAP": "\/assets\/frontletters\/I.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/frontletters\/S.png": {
+		"ft": 32768,
+		"iS": 18500,
+		"oA": 0,
+		"oAP": "\/assets\/frontletters\/S.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/frontletters\/w.png": {
+		"ft": 32768,
+		"iS": 18794,
+		"oA": 0,
+		"oAP": "\/assets\/frontletters\/w.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/guitar.png": {
+		"ft": 32768,
+		"iS": 14318,
+		"oA": 0,
+		"oAP": "\/assets\/guitar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/jquery-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -26,6 +114,61 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/marriedbg.png": {
+		"ft": 32768,
+		"iS": 310368,
+		"oA": 0,
+		"oAP": "\/assets\/marriedbg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/milk-bg.png": {
+		"ft": 32768,
+		"iS": 13123,
+		"oA": 0,
+		"oAP": "\/assets\/milk-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/movie-bg.png": {
+		"ft": 32768,
+		"iS": 14836,
+		"oA": 0,
+		"oAP": "\/assets\/movie-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/puzzle-bg.png": {
+		"ft": 32768,
+		"iS": 15181,
+		"oA": 0,
+		"oAP": "\/assets\/puzzle-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/schedule-bg.png": {
+		"ft": 32768,
+		"iS": 34221,
+		"oA": 0,
+		"oAP": "\/assets\/schedule-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/script-min.js": {
 		"ft": 64,
@@ -62,6 +205,17 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/speech.png": {
+		"ft": 32768,
+		"iS": 16921,
+		"oA": 0,
+		"oAP": "\/assets\/speech.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/style.css": {
 		"aP": 1,
@@ -117,6 +271,126 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/word-bg-pics\/dadpic.JPG": {
+		"ft": 16384,
+		"iS": 140378,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/dadpic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/downstairs.jpg": {
+		"ft": 16384,
+		"iS": 169057,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/downstairs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/downstairs2.JPG": {
+		"ft": 16384,
+		"iS": 162399,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/downstairs2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/flowers.JPG": {
+		"ft": 16384,
+		"iS": 123817,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/flowers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/kidstable.jpg": {
+		"ft": 16384,
+		"iS": 205922,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/kidstable.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/laughing.jpg": {
+		"ft": 16384,
+		"iS": 137424,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/laughing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/laughingguitar.jpg": {
+		"ft": 16384,
+		"iS": 131481,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/laughingguitar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/lola.JPG": {
+		"ft": 16384,
+		"iS": 112301,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/lola.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/movie.jpg": {
+		"ft": 16384,
+		"iS": 147545,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/movie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/shacho.jpg": {
+		"ft": 16384,
+		"iS": 115448,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/shacho.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/signboard.JPG": {
+		"ft": 16384,
+		"iS": 117782,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/signboard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/word-bg-pics\/toast.JPG": {
+		"ft": 16384,
+		"iS": 130106,
+		"oA": 0,
+		"oAP": "\/assets\/word-bg-pics\/toast.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/build\/.gitignore": {
 		"ft": 8192,
@@ -206,17 +480,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/bus-bg.png": {
-		"ft": 32768,
-		"iS": 12809,
-		"oA": 0,
-		"oAP": "\/img\/bus-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/cake-figures.jpg": {
 		"ft": 16384,
 		"iS": 200309,
@@ -287,17 +550,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/dessert.png": {
-		"ft": 32768,
-		"iS": 12105,
-		"oA": 0,
-		"oAP": "\/img\/dessert.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/entrance-1.jpg": {
 		"ft": 16384,
 		"iS": 296188,
@@ -366,61 +618,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/fork-bg.png": {
-		"ft": 32768,
-		"iS": 15072,
-		"oA": 0,
-		"oAP": "\/img\/fork-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/frontletters\/a.png": {
-		"ft": 32768,
-		"iS": 17690,
-		"oA": 0,
-		"oAP": "\/img\/frontletters\/a.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/frontletters\/I.png": {
-		"ft": 32768,
-		"iS": 9250,
-		"oA": 0,
-		"oAP": "\/img\/frontletters\/I.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/frontletters\/S.png": {
-		"ft": 32768,
-		"iS": 18500,
-		"oA": 0,
-		"oAP": "\/img\/frontletters\/S.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/frontletters\/w.png": {
-		"ft": 32768,
-		"iS": 18794,
-		"oA": 0,
-		"oAP": "\/img\/frontletters\/w.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/g24965.png": {
@@ -504,17 +701,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/guitar.png": {
-		"ft": 32768,
-		"iS": 14318,
-		"oA": 0,
-		"oAP": "\/img\/guitar.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/JC-walking.jpg": {
 		"ft": 16384,
 		"iS": 346448,
@@ -553,39 +739,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/marriedbg.png": {
-		"ft": 32768,
-		"iS": 310368,
-		"oA": 0,
-		"oAP": "\/img\/marriedbg.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/milk-bg.png": {
-		"ft": 32768,
-		"iS": 13123,
-		"oA": 0,
-		"oAP": "\/img\/milk-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/movie-bg.png": {
-		"ft": 32768,
-		"iS": 14836,
-		"oA": 0,
-		"oAP": "\/img\/movie-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/movie-dance.JPG": {
@@ -638,33 +791,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/puzzle-bg.png": {
-		"ft": 32768,
-		"iS": 15181,
-		"oA": 0,
-		"oAP": "\/img\/puzzle-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/puzzle.png": {
 		"ft": 32768,
 		"iS": 12105,
 		"oA": 0,
 		"oAP": "\/img\/puzzle.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/schedule-bg.png": {
-		"ft": 32768,
-		"iS": 34221,
-		"oA": 0,
-		"oAP": "\/img\/schedule-bg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -679,17 +810,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/speech.png": {
-		"ft": 32768,
-		"iS": 16921,
-		"oA": 0,
-		"oAP": "\/img\/speech.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/stairs.jpg": {
@@ -737,126 +857,6 @@
 		"iS": 131152,
 		"oA": 0,
 		"oAP": "\/img\/waving.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/dadpic.JPG": {
-		"ft": 16384,
-		"iS": 140378,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/dadpic.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/downstairs.jpg": {
-		"ft": 16384,
-		"iS": 169057,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/downstairs.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/downstairs2.JPG": {
-		"ft": 16384,
-		"iS": 162399,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/downstairs2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/flowers.JPG": {
-		"ft": 16384,
-		"iS": 123817,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/flowers.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/kidstable.jpg": {
-		"ft": 16384,
-		"iS": 205922,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/kidstable.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/laughing.jpg": {
-		"ft": 16384,
-		"iS": 137424,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/laughing.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/laughingguitar.jpg": {
-		"ft": 16384,
-		"iS": 131481,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/laughingguitar.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/lola.JPG": {
-		"ft": 16384,
-		"iS": 112301,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/lola.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/movie.jpg": {
-		"ft": 16384,
-		"iS": 147545,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/movie.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/shacho.JPG": {
-		"ft": 16384,
-		"iS": 115448,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/shacho.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/signboard.JPG": {
-		"ft": 16384,
-		"iS": 117782,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/signboard.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/word-bg-pics\/toast.JPG": {
-		"ft": 16384,
-		"iS": 130106,
-		"oA": 0,
-		"oAP": "\/img\/word-bg-pics\/toast.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
