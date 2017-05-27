@@ -1,0 +1,188 @@
+body
+  font-family: 'Raleway', sans-serif
+  background-color: #f5f5f5
+  font-size: 16px
+  line-height: 28px
+  text-align: justify
+
+  .bodycontainer
+    max-width: 940px
+    background-color: white
+    margin-left: auto
+    margin-right: auto
+    .picturepage
+      .content
+        max-width: 620px
+        text-align: justify
+        margin-left: auto
+        margin-right: auto
+        padding: 20px 20px
+
+
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+          max-width: 100%
+          padding: 20px 7%
+
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 667px)
+          max-width: 100%
+          padding: 20px 30px
+
+        .letterimage
+          height: 6em
+          float: left
+          padding-right: 10px
+          vertical-align: text-top
+
+        .paragraph
+          display: inline
+
+        .emphasis
+          font-size: 26px
+
+        .paragraphcenter
+          text-align: center
+        .weddingmovie
+          text-align: center
+          display: block
+          text-align: none
+          font-size: 20px
+          color: grey
+          text-decoration: none
+
+        #heartdrawing
+          text-align: center
+          display: block
+          margin-left: auto
+          margin-right: auto
+
+      .flex
+        display: flex
+        align-items: center
+        justify-content: center
+        background-image: url("/img/marriedbg.png")
+        background-size: cover
+        background-repeat: no-repeat
+        border-radius: 20px
+        height: 20vh
+        margin: 20px auto
+
+    .arrowword
+      position: relative
+      bottom: 10vh
+      text-align: center
+      animation: bounce 2s infinite
+      animation-delay: 6s
+      display: none
+      background-position: 50% 50%
+
+.textwrap
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 50px
+
+  @media (max-width: 700px)
+    font-size: 30px
+
+.typed-cursor
+	opacity: 1
+	animation: blink 0.7s infinite
+
+@keyframes blink
+	0%
+    opacity: 1
+	50%
+    opacity: 0
+	100%
+    opacity: 1
+
+.parallax-w
+  height: 100vh
+  background-position: 50% 50%
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-size: cover
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+    background-attachment: scroll
+    height: 70vh
+    background-size: contain
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 667px)
+    background-attachment: scroll
+    height: 70vh
+    background-size: contain
+
+
+.parallax-1-word
+  background-image: url("/img/bouquet.jpg")
+.parallax-2-word
+  background-image: url("/img/word-bg-pics/downstairs.jpg")
+.parallax-3-word
+  background-image: url("/img/word-bg-pics/flowers.JPG")
+.parallax-4-word
+  background-image: url("/img/word-bg-pics/kidstable.jpg")
+.parallax-5-word
+  background-image: url("/img/word-bg-pics/signboard.jpg")
+.parallax-6-word
+  background-image: url("/img/word-bg-pics/lola.JPG")
+.parallax-7-word
+  background-image: url("/img/word-bg-pics/dadpic.JPG")
+.parallax-8-word
+  background-image: url("/img/word-bg-pics/downstairs2.JPG")
+.parallax-9-word
+  background-image: url("/img/word-bg-pics/movie.jpg")
+.parallax-10-word
+  background-image: url("/img/word-bg-pics/toast.JPG")
+.parallax-11-word
+  background-image: url("/img/word-bg-pics/laughing.jpg")
+.parallax-12-word
+  background-image: url("/img/word-bg-pics/shacho.jpg")
+.parallax-13-word
+  background-image: url("/img/portrait-JC.jpg")
+
+
+
+
+
+
+
+
+
+
+
+
+  @keyframes bounce
+    20%, 53%, 80%
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+      transform: translate3d(0,0,0)
+
+    40%, 43%
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+      transform: translate3d(-5px, -30px, 0)
+
+    70%
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+      transform: translate3d(5px, -15px, 0)
+
+    90%
+      transform: translate3d(0,-4px,0)
+.heartcontainer
+  text-align: center
+
+
+
+
+#heartdrawing path
+  fill: transparent
+  stroke: black
+  stroke-width: 4px
+  stroke-dasharray: 1413.606201171875px
+  stroke-dashoffset: -1413.606201171875
+  transition: stroke-dashoffset 0.5s linear, fill 0.4s ease 0.5s;
+
+#heartdrawing.checked path
+  fill: rgba(254, 215, 215, 1)
+  stroke-dashoffset: 0px

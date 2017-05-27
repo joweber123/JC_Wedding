@@ -1,0 +1,1 @@
+$(window).scroll(function(){var e=$("#heartdrawing").offset().top,r=$("#heartdrawing").outerHeight(),a=$(window).height(),t=$(this).scrollTop();t>e+r-a&&e>t&&t+a>e+r?$("#heartdrawing").addClass("checked"):$("#heartdrawing").removeClass("checked")});
