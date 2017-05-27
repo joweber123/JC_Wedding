@@ -52,50 +52,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/frontletters\/a.png": {
-		"ft": 32768,
-		"iS": 17690,
-		"oA": 0,
-		"oAP": "\/assets\/frontletters\/a.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/frontletters\/I.png": {
-		"ft": 32768,
-		"iS": 9250,
-		"oA": 0,
-		"oAP": "\/assets\/frontletters\/I.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/frontletters\/S.png": {
-		"ft": 32768,
-		"iS": 18500,
-		"oA": 0,
-		"oAP": "\/assets\/frontletters\/S.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/frontletters\/w.png": {
-		"ft": 32768,
-		"iS": 18794,
-		"oA": 0,
-		"oAP": "\/assets\/frontletters\/w.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/guitar.png": {
 		"ft": 32768,
 		"iS": 14318,
@@ -638,6 +594,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/frontletters\/a.png": {
+		"ft": 32768,
+		"iS": 17690,
+		"oA": 0,
+		"oAP": "\/img\/frontletters\/a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/frontletters\/I.png": {
+		"ft": 32768,
+		"iS": 9250,
+		"oA": 0,
+		"oAP": "\/img\/frontletters\/I.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/frontletters\/S.png": {
+		"ft": 32768,
+		"iS": 18500,
+		"oA": 0,
+		"oAP": "\/img\/frontletters\/S.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/frontletters\/w.png": {
+		"ft": 32768,
+		"iS": 18794,
+		"oA": 0,
+		"oAP": "\/img\/frontletters\/w.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/g24965.png": {
