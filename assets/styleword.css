@@ -41,11 +41,14 @@ body {
         font-size: 20px;
         color: grey;
         text-decoration: none; }
-      body .bodycontainer .picturepage .content #heartdrawing {
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto; }
+    body .bodycontainer .picturepage #heartcontent #heartdrawing {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: none; }
+      @media only screen and (min-width: 550px) {
+        body .bodycontainer .picturepage #heartcontent #heartdrawing {
+          display: block; } }
     body .bodycontainer .picturepage .flex {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -88,6 +91,9 @@ body {
   @media (max-width: 700px) {
     .textwrap {
       font-size: 30px; } }
+  @media (max-width: 500px) {
+    .textwrap {
+      font-size: 20px; } }
 
 .typed-cursor {
   opacity: 1;
@@ -205,9 +211,6 @@ body {
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
             transform: translate3d(0, -4px, 0); } }
-
-.heartcontainer {
-  text-align: center; }
 
 #heartdrawing path {
   fill: transparent;

@@ -1,243 +1,269 @@
+body
+  font-family: 'Raleway', sans-serif
+  margin: 0
 
-
-
-.frontcontainer1
-  display: flex
-  width: 50%
-  height: 100vh
-  float: right
-  justify-content: center
-  align-items: center
-  box-sizing: border-box
-  cursor: default
-
-  @media only screen and (orientation:portrait) and (max-width : 1025px)
-      width: auto
-      height: 50vh
-      float: none
-
-
-
-
-
-  .words1
-    position: absolute
-    font-size: 50px
-    color: white
-    bottom: 40%
-    font-family: sans-serif
-    padding-right: 10%
-    z-index: 100
-    display: none
-    cursor: pointer
-    @media only screen and (orientation:portrait) and (max-width : 1025px)
-      display: block!important
-      opacity: 1!important
+  .frontcontainer-mobile-portrait, .frontcontainer-mobile-landscape
+    .story
+      width: 100vw
       text-align: center
-      bottom: auto
-      top: 20%
-      padding-right: 0
-    @media only screen and (orientation:landscape) and (max-width : 1025px)
-      display: block!important
-      opacity: 1!important
+      position: relative
 
+      color: white
+      z-index: 100
+      margin: 0
+      font-size: 2em
 
+    #story
+      padding-top: 68vh
+    #story-l
+      padding-top: 60vh
+    .story
+      .story1
+        text-decoration: none
+        animation: scales 10s infinite
 
+      @keyframes scales
+        0%
+          color: yellow
 
+        50%
+          color: white
 
+        75%
+          color: #00dfff
+        100%
+          color: white
 
-
-
-  #frontimagecolor
-    display: block
-    width: 60%
-    position: relative
-    left: -10%
-    height: auto
-    cursor: pointer
-    box-shadow: 0px 5px 14px rgba(0,0,0,0.6)
-    transition: all 300ms ease-in-out
-    border-radius: 3%
-    &:hover
-     opacity: 0.8
-    @media only screen and (orientation:portrait) and (max-width : 1025px)
-      position: static
-      height: 48vh
-      width: auto
-
-
-
-
-.frontcontainer2
-  display: flex
-  float: left
-  height: 100vh
-  width: 50%
-  justify-content: center
-  align-items: center
-  box-sizing: border-box
-  cursor: default
-
-  @media only screen and (orientation:portrait) and (max-width : 1025px)
-    width: auto
-    height: 50vh
-    float: none
-
-
-  .words2
-    position: absolute
-    font-size: 50px
-    display: none
-    color: lightblue
-    bottom: 40%
-    font-family: sans-serif
-    padding-left: 10%
-    z-index: 100
-    cursor: pointer
-
-    @media only screen and (orientation:portrait) and (max-width : 1025px)
-      display: block!important
-      opacity: 1!important
+    .album
+      width: 100vw
       text-align: center
-      bottom: auto
-      bottom: 20%
-      padding-left: 0
-    @media only screen and (orientation:landscape) and (max-width : 1025px)
-      display: block!important
-      opacity: 1!important
+      position: relative
+      margin: 0
+      color: white
+      z-index: 101
+      font-size: 3em
 
-  #frontimagebw
-    display: block
-    width: 60%
-    position: relative
-    right: -10%
-    height: auto
-    cursor: pointer
-    box-shadow: 0px 5px 14px rgba(0,0,0,0.6)
-    transition: all 300ms ease-in-out
-    border-radius: 3%
+      #album1, #album1-l
+        text-decoration: none
+        animation: scale 10s infinite
 
-    &:hover
-     opacity: 0.8
 
-    @media only screen and (orientation:portrait) and (max-width : 1025px)
-      position: static
-      height: 48vh
+      @keyframes scale
+        0%
+          color: white
+        50%
+          color: red
+        75%
+          color: white
+        100%
+          color: yellow
+
+
+    .homeimage
+      margin: auto
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      position: absolute
+      display: block
+
+
+      border-radius: 20px
+      box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.6)
+    #homeimage
+      height: auto
+      width: 85vw
+    #homeimage-l
+      height: 85vh
+      width: auto
+
+    .homeimageleft
+      margin: auto
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      position: absolute
+      display: block
+      height: auto
+      width: 85vw
+      border-radius: 20px
+      animation: filter-animation1 11s infinite
+    #homeimageleft
+      height: auto
+      width: 85vw
+    #homeimageleft-l
+      height: 85vh
       width: auto
 
 
+    @keyframes filter-animation1
+      0%
+        filter: hue-rotate(60deg)
 
+      10%
+        filter: hue-rotate(80deg)
 
-.backbutton
-  text-decoration: none
-  color: black
+      20%
+        filter: hue-rotate(120deg)
 
-.picturepage
-  .arrowword
-    position: relative
-    bottom: 10vh
-    text-align: center
-    animation: bounce 2s infinite
-    animation-delay: 6s
-    display: none
-    background-position: 50% 50%
+      30%
+        filter: hue-rotate(160deg)
+      40%
+        filter: hue-rotate(220deg)
 
-    @keyframes bounce
-      20%, 53%, 80%
-        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
-        transform: translate3d(0,0,0)
+      50%
+        filter: hue-rotate(260deg)
 
-      40%, 43%
-        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
-        transform: translate3d(-5px, -30px, 0)
+      60%
+        filter: hue-rotate(220deg)
 
       70%
-        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
-        transform: translate3d(5px, -15px, 0)
+        filter: hue-rotate(160deg)
 
+      80%
+        filter: hue-rotate(120deg)
       90%
-        transform: translate3d(0,-4px,0)
-  .content
-    .container
+        filter: hue-rotate(80deg)
+      100%
+        filter: hue-rotate(40deg)
+
+    .homeimageright
+      margin: auto
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      position: absolute
+      display: block
+      height: auto
+      width: 85vw
+      border-radius: 20px
+      animation: filter-animation2 10s infinite
+
+    #homeimageright
+      height: auto
+      width: 85vw
+    #homeimageright-l
+      height: 85vh
+      width: auto
 
 
+    @keyframes filter-animation2
+      0%
+        filter: hue-rotate(-60deg)
 
+      10%
+        filter: hue-rotate(-80deg)
 
+      20%
+        filter: hue-rotate(-120deg)
 
+      30%
+        filter: hue-rotate(-160deg)
+      40%
+        filter: hue-rotate(-220deg)
 
+      50%
+        filter: hue-rotate(-260deg)
 
+      60%
+        filter: hue-rotate(-220deg)
 
+      70%
+        filter: hue-rotate(-160deg)
 
+      80%
+        filter: hue-rotate(-120deg)
+      90%
+        filter: hue-rotate(-80deg)
+      100%
+        filter: hue-rotate(-40deg)
 
+  .frontcontainer-mobile-portrait
+    display: none
+    @media only screen and (max-width:320px)
+      display: inline-block
+    @media only screen and (min-width:581px) and (max-width:768px)
+      display: inline-block
 
-      .img-fullwidth
+  .frontcontainer-mobile-landscape
+    display: none
+    @media only screen and (min-width:321px) and (max-width:580px)
+      display: inline-block
+    @media only screen and (min-width:769px) and (max-width:1024px)
+      display: inline-block
+
+  .frontcontainer-desktop
+    display: none
+    @media only screen and (min-width:1025px)
+      display: block
+    .frontcontainer1
+      display: flex
+      width: 50%
+      height: 100vh
+      float: right
+      justify-content: center
+      align-items: center
+      box-sizing: border-box
+      cursor: default
+
+      .words1
+        position: absolute
+        font-size: 50px
+        color: white
+        bottom: 40%
+        font-family: sans-serif
+        padding-right: 10%
+        z-index: 100
+        display: none
+        cursor: pointer
+
+      #frontimagecolor
         display: block
-        margin-left: auto
-        margin-right: auto
-        margin-top: 20px
-        max-width: 90%
+        width: 60%
+        position: relative
+        left: -10%
         height: auto
-        background-color: transparent
+        cursor: pointer
+        box-shadow: 0px 5px 14px rgba(0,0,0,0.6)
+        transition: all 300ms ease-in-out
+        border-radius: 3%
+        &:hover
+         opacity: 0.8
+
+    .frontcontainer2
+      display: flex
+      float: left
+      height: 100vh
+      width: 50%
+      justify-content: center
+      align-items: center
+      box-sizing: border-box
+      cursor: default
+
+      .words2
+        position: absolute
+        font-size: 50px
+        display: none
+        color: lightblue
+        bottom: 40%
+        font-family: sans-serif
+        padding-left: 10%
+        z-index: 100
+        cursor: pointer
+
+      #frontimagebw
+        display: block
+        width: 60%
+        position: relative
+        right: -10%
+        height: auto
+        cursor: pointer
+        box-shadow: 0px 5px 14px rgba(0,0,0,0.6)
+        transition: all 300ms ease-in-out
         border-radius: 3%
 
-      .img-halfwidth
-        display: block
-        max-width: 40%
-        margin-left: 5%
-        margin-right: 5%
-        margin-top: 20px
-        margin-bottom: 20px
-        float: left
-        border-radius: 3%
-
-      .iframediv
-        display: block
-        height: 48vw
-        margin-left: auto
-        margin-right: auto
-        margin-top: 20px
-
-        .video
-          display: block
-          margin-left: auto
-          margin-right: auto
-          padding: 0
-          border: none
-          width: 90%
-          height: 100%
-          z-index: 100
-          border-radius: 5%
-
-  .parallax
-    height: 100vh
-    background-position: 50% 50%
-    background-repeat: no-repeat
-    background-attachment: fixed
-    background-size: contain
-
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
-      background-attachment: scroll
-
-
-    @media only screen and (min-device-width : 320px) and (max-device-width : 667px)
-      background-attachment: scroll
-
-
-  .parallax-1
-    background-image: url("schedule-bg.png")
-  .parallax-2
-    background-image: url("milk-bg.png")
-  .parallax-3
-    background-image: url("fork-bg.png")
-  .parallax-4
-    background-image: url("movie-bg.png")
-  .parallax-5
-    background-image: url("puzzle-bg.png")
-  .parallax-6
-    background-image: url("dessert.png")
-  .parallax-7
-    background-image: url("guitar.png")
-  .parallax-8
-    background-image: url("speech.png")
-  .parallax-9
-    background-image: url("bus-bg.png")
+        &:hover
+         opacity: 0.8

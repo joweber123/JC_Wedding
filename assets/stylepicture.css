@@ -1,0 +1,127 @@
+.picturepage .arrowword {
+  position: relative;
+  bottom: 10vh;
+  text-align: center;
+  -webkit-animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  display: none;
+  background-position: 50% 50%; }
+
+@-webkit-keyframes bounce {
+  20%, 53%, 80% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(-5px, -30px, 0);
+            transform: translate3d(-5px, -30px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(5px, -15px, 0);
+            transform: translate3d(5px, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+            transform: translate3d(0, -4px, 0); } }
+
+@keyframes bounce {
+  20%, 53%, 80% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(-5px, -30px, 0);
+            transform: translate3d(-5px, -30px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(5px, -15px, 0);
+            transform: translate3d(5px, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+            transform: translate3d(0, -4px, 0); } }
+
+.picturepage .content .container .img-fullwidth {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 90%;
+  height: auto;
+  background-color: transparent;
+  border-radius: 3%; }
+
+.picturepage .content .container .img-halfwidth {
+  display: block;
+  max-width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  border-radius: 3%; }
+
+.picturepage .content .container .iframediv {
+  display: block;
+  height: 48vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+  .picturepage .content .container .iframediv .video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: none;
+    width: 90%;
+    height: 100%;
+    z-index: 100;
+    border-radius: 5%; }
+
+.picturepage .parallax {
+  height: 100vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .picturepage .parallax {
+      background-attachment: scroll; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+    .picturepage .parallax {
+      background-attachment: scroll; } }
+
+.picturepage .parallax-1 {
+  background-image: url("schedule-bg.png"); }
+
+.picturepage .parallax-2 {
+  background-image: url("milk-bg.png"); }
+
+.picturepage .parallax-3 {
+  background-image: url("fork-bg.png"); }
+
+.picturepage .parallax-4 {
+  background-image: url("movie-bg.png"); }
+
+.picturepage .parallax-5 {
+  background-image: url("puzzle-bg.png"); }
+
+.picturepage .parallax-6 {
+  background-image: url("dessert.png"); }
+
+.picturepage .parallax-7 {
+  background-image: url("guitar.png"); }
+
+.picturepage .parallax-8 {
+  background-image: url("speech.png"); }
+
+.picturepage .parallax-9 {
+  background-image: url("bus-bg.png"); }

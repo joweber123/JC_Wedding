@@ -204,6 +204,29 @@
 		"oS": 0
 		},
 	"\/assets\/style.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/stylepicture.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/stylepicture-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/stylepicture.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -211,7 +234,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/style.css",
+		"oAP": "\/assets\/stylepicture.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -596,6 +619,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/frontimagelandscapehome.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/frontimagelandscapehome.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/frontimagelandscapehomeleft.png": {
+		"ft": 32768,
+		"iS": 155648,
+		"oA": 0,
+		"oAP": "\/img\/frontimagelandscapehomeleft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/frontimagelandscapehomeright.png": {
+		"ft": 32768,
+		"iS": 247006,
+		"oA": 0,
+		"oAP": "\/img\/frontimagelandscapehomeright.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/frontletters\/a.png": {
 		"ft": 32768,
 		"iS": 17690,
@@ -871,6 +927,38 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/walking-down-the-stairs-mobile-base.jpg": {
+		"ft": 16384,
+		"iS": 97766,
+		"oA": 0,
+		"oAP": "\/img\/walking-down-the-stairs-mobile-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/walking-down-the-stairs-mobile-left.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/walking-down-the-stairs-mobile-left.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/walking-down-the-stairs-mobile-right.png": {
+		"ft": 32768,
+		"iS": 65536,
+		"oA": 0,
+		"oAP": "\/img\/walking-down-the-stairs-mobile-right.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/walking-down-the-stairs.jpg": {

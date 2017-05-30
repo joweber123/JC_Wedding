@@ -18,11 +18,9 @@ body
         margin-right: auto
         padding: 20px 20px
 
-
         @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
           max-width: 100%
           padding: 20px 7%
-
 
         @media only screen and (min-device-width : 320px) and (max-device-width : 667px)
           max-width: 100%
@@ -50,11 +48,21 @@ body
           color: grey
           text-decoration: none
 
+
+
+      #heartcontent
         #heartdrawing
           text-align: center
-          display: block
+
           margin-left: auto
           margin-right: auto
+          display: none
+          @media only screen and (min-width:550px)
+            display: block
+
+
+
+
 
       .flex
         display: flex
@@ -66,6 +74,7 @@ body
         border-radius: 20px
         height: 20vh
         margin: 20px auto
+
 
     .arrowword
       position: relative
@@ -85,6 +94,8 @@ body
 
   @media (max-width: 700px)
     font-size: 30px
+  @media (max-width: 500px)
+    font-size: 20px
 
 .typed-cursor
 	opacity: 1
@@ -143,17 +154,6 @@ body
 .parallax-13-word
   background-image: url("portrait-JC.jpg")
 
-
-
-
-
-
-
-
-
-
-
-
   @keyframes bounce
     20%, 53%, 80%
       animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
@@ -169,11 +169,6 @@ body
 
     90%
       transform: translate3d(0,-4px,0)
-.heartcontainer
-  text-align: center
-
-
-
 
 #heartdrawing path
   fill: transparent
@@ -181,7 +176,7 @@ body
   stroke-width: 4px
   stroke-dasharray: 1413.606201171875px
   stroke-dashoffset: -1413.606201171875
-  transition: stroke-dashoffset 0.5s linear, fill 0.4s ease 0.5s;
+  transition: stroke-dashoffset 0.5s linear, fill 0.4s ease 0.5s
 
 #heartdrawing.checked path
   fill: rgba(254, 215, 215, 1)

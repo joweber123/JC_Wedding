@@ -25,11 +25,11 @@
 
 
 $(document).ready(function(){
-  $('.arrowword').fadeIn(8000);
+  $('.arrowword').fadeIn(5000);
 });
 
 $(document).ready(function(){
-  $('.arrow').fadeIn(8000);
+  $('.arrow').fadeIn(5000);
 });
 
 
