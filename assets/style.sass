@@ -2,6 +2,89 @@ body
   font-family: 'Raleway', sans-serif
   margin: 0
 
+  .linecontainer
+    display: flex
+    position: absolute
+    height: 100vh
+    width: 100vw
+    display: none
+    
+
+  @media only screen and (min-width:1025px)
+    display: block
+    .line
+      width: 100vw
+      height: 10px
+      position: absolute
+
+    #line1
+      background-color: #4eb9b9
+      top: 50vh
+      animation: grow 10s 1
+
+
+
+    @keyframes grow
+      0%
+        transform: translateX(-100vw)
+      50%
+        transform: translateX(0vw)
+      100%
+        transform: translateX(none)
+    #line2
+      background-color: #efbaba
+      top: 53vh
+      animation: grow 8s 1
+
+
+    @keyframes grow
+      0%
+        transform: translateX(-100vw)
+
+      50%
+        transform: translateX(-20vw)
+
+      100%
+        transform: translateX(0)
+
+    #line3
+      background-color: #e3cff8
+      top: 47vh
+      animation: grow 9s 1
+
+    @keyframes grow
+      0%
+        transform: translateX(-100vw)
+      50%
+        transform: translateX(-20vw)
+      100%
+        transform: translateX(none)
+    #line4
+      background-color: #fcc384
+      top: 44vh
+      animation: grow 9s 1
+
+    @keyframes grow
+      0%
+        transform: translateX(-100vw)
+      50%
+        transform: translateX(-20vw)
+      100%
+        transform: translateX(none)
+    #line5
+      background-color: #fcff84
+      top: 56vh
+      animation: grow 9s 1
+
+    @keyframes grow
+      0%
+        transform: translateX(-100vw)
+      50%
+        transform: translateX(-20vw)
+      100%
+        transform: translateX(none)
+
+
   .frontcontainer-mobile-portrait, .frontcontainer-mobile-landscape
     .story
       width: 100vw
@@ -211,9 +294,9 @@ body
 
       .words1
         position: absolute
-        font-size: 50px
-        color: white
-        bottom: 40%
+        font-size: 60px
+        color: #ecf7fb
+        bottom: 30%
         font-family: sans-serif
         padding-right: 10%
         z-index: 100
@@ -231,7 +314,7 @@ body
         transition: all 300ms ease-in-out
         border-radius: 3%
         &:hover
-         opacity: 0.8
+         filter: blur(2px)
 
     .frontcontainer2
       display: flex
@@ -245,10 +328,10 @@ body
 
       .words2
         position: absolute
-        font-size: 50px
+        font-size: 60px
         display: none
-        color: lightblue
-        bottom: 40%
+        color: #ecf7fb
+        bottom: 30%
         font-family: sans-serif
         padding-left: 10%
         z-index: 100
@@ -266,4 +349,4 @@ body
         border-radius: 3%
 
         &:hover
-         opacity: 0.8
+         filter: blur(2px)

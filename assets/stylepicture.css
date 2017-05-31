@@ -1,11 +1,11 @@
 .picturepage .arrowword {
   position: relative;
-  bottom: 10vh;
+  bottom: 20vh;
   text-align: center;
   -webkit-animation: bounce 2s infinite;
           animation: bounce 2s infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
   display: none;
   background-position: 50% 50%; }
 

@@ -1,28 +1,17 @@
 
-      $("#frontimagecolor").hover(function(){
+      $(".frontcontainer1").hover(function(){
           $('.words1').fadeIn(500);
       },function(){
           $('.words1').fadeOut(500);
       });
 
-      $("#frontimagebw").hover(function(){
+      $(".frontcontainer2").hover(function(){
           $('.words2').fadeIn(500);
       },function(){
           $('.words2').fadeOut(500);
       });
 
         //do code for less than 480px wide
-
-
-
-
-
-
-
-
-
-
-
 
 $(document).ready(function(){
   $('.arrowword').fadeIn(5000);
@@ -31,6 +20,11 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.arrow').fadeIn(5000);
 });
+
+$(document).ready(function() {
+$('.linecontainer').delay(3000).fadeIn(100);
+});
+
 
 
 
