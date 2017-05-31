@@ -8,7 +8,7 @@ body
     height: 100vh
     width: 100vw
     display: none
-    
+
 
   @media only screen and (min-width:1025px)
     display: block
@@ -266,17 +266,17 @@ body
 
   .frontcontainer-mobile-portrait
     display: none
-    @media only screen and (max-width:320px)
+    @media screen and (orientation: portrait)
       display: inline-block
-    @media only screen and (min-width:581px) and (max-width:768px)
-      display: inline-block
+
+
+
 
   .frontcontainer-mobile-landscape
     display: none
-    @media only screen and (min-width:321px) and (max-width:580px)
+    @media screen and (orientation: landscape) and (max-width:1025px)
       display: inline-block
-    @media only screen and (min-width:769px) and (max-width:1024px)
-      display: inline-block
+
 
   .frontcontainer-desktop
     display: none
@@ -336,6 +336,8 @@ body
         padding-left: 10%
         z-index: 100
         cursor: pointer
+
+
 
       #frontimagebw
         display: block

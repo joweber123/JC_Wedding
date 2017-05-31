@@ -217,18 +217,12 @@ body {
     filter: hue-rotate(-40deg); } }
   body .frontcontainer-mobile-portrait {
     display: none; }
-    @media only screen and (max-width: 320px) {
-      body .frontcontainer-mobile-portrait {
-        display: inline-block; } }
-    @media only screen and (min-width: 581px) and (max-width: 768px) {
+    @media screen and (orientation: portrait) {
       body .frontcontainer-mobile-portrait {
         display: inline-block; } }
   body .frontcontainer-mobile-landscape {
     display: none; }
-    @media only screen and (min-width: 321px) and (max-width: 580px) {
-      body .frontcontainer-mobile-landscape {
-        display: inline-block; } }
-    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (orientation: landscape) and (max-width: 1025px) {
       body .frontcontainer-mobile-landscape {
         display: inline-block; } }
   body .frontcontainer-desktop {
