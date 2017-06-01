@@ -9,6 +9,48 @@ body {
     background-color: white;
     margin-left: auto;
     margin-right: auto; }
+    body .bodycontainer .picturepage .parallax-w {
+      height: 100vh;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover; }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        body .bodycontainer .picturepage .parallax-w {
+          background-attachment: scroll;
+          height: 70vh;
+          background-size: contain; } }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+        body .bodycontainer .picturepage .parallax-w {
+          background-attachment: scroll;
+          height: 70vh;
+          background-size: contain; } }
+    body .bodycontainer .picturepage .parallax-1-word {
+      background-image: url("bouquet.jpg"); }
+    body .bodycontainer .picturepage .parallax-2-word {
+      background-image: url("word-bg-pics/downstairs.jpg"); }
+    body .bodycontainer .picturepage .parallax-3-word {
+      background-image: url("word-bg-pics/flowers.JPG"); }
+    body .bodycontainer .picturepage .parallax-4-word {
+      background-image: url("word-bg-pics/kidstable.jpg"); }
+    body .bodycontainer .picturepage .parallax-5-word {
+      background-image: url("word-bg-pics/signboard.JPG"); }
+    body .bodycontainer .picturepage .parallax-6-word {
+      background-image: url("word-bg-pics/lola.JPG"); }
+    body .bodycontainer .picturepage .parallax-7-word {
+      background-image: url("word-bg-pics/dadpic.JPG"); }
+    body .bodycontainer .picturepage .parallax-8-word {
+      background-image: url("word-bg-pics/downstairs2.JPG"); }
+    body .bodycontainer .picturepage .parallax-9-word {
+      background-image: url("word-bg-pics/movie.jpg"); }
+    body .bodycontainer .picturepage .parallax-10-word {
+      background-image: url("word-bg-pics/toast.JPG"); }
+    body .bodycontainer .picturepage .parallax-11-word {
+      background-image: url("word-bg-pics/laughing.jpg"); }
+    body .bodycontainer .picturepage .parallax-12-word {
+      background-image: url("word-bg-pics/shacho.jpg"); }
+    body .bodycontainer .picturepage .parallax-13-word {
+      background-image: url("portrait-JC.jpg"); }
     body .bodycontainer .picturepage .content {
       max-width: 620px;
       text-align: justify;
@@ -76,102 +118,6 @@ body {
       display: none;
       background-position: 50% 50%; }
 
-.textwrap {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 50px; }
-  @media (max-width: 700px) {
-    .textwrap {
-      font-size: 30px; } }
-  @media (max-width: 500px) {
-    .textwrap {
-      font-size: 20px; } }
-
-.typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-          animation: blink 0.7s infinite; }
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-.parallax-w {
-  height: 100vh;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .parallax-w {
-      background-attachment: scroll;
-      height: 70vh;
-      background-size: contain; } }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
-    .parallax-w {
-      background-attachment: scroll;
-      height: 70vh;
-      background-size: contain; } }
-
-.parallax-1-word {
-  background-image: url("bouquet.jpg"); }
-
-.parallax-2-word {
-  background-image: url("word-bg-pics/downstairs.jpg"); }
-
-.parallax-3-word {
-  background-image: url("word-bg-pics/flowers.JPG"); }
-
-.parallax-4-word {
-  background-image: url("word-bg-pics/kidstable.jpg"); }
-
-.parallax-5-word {
-  background-image: url("word-bg-pics/signboard.JPG"); }
-
-.parallax-6-word {
-  background-image: url("word-bg-pics/lola.JPG"); }
-
-.parallax-7-word {
-  background-image: url("word-bg-pics/dadpic.JPG"); }
-
-.parallax-8-word {
-  background-image: url("word-bg-pics/downstairs2.JPG"); }
-
-.parallax-9-word {
-  background-image: url("word-bg-pics/movie.jpg"); }
-
-.parallax-10-word {
-  background-image: url("word-bg-pics/toast.JPG"); }
-
-.parallax-11-word {
-  background-image: url("word-bg-pics/laughing.jpg"); }
-
-.parallax-12-word {
-  background-image: url("word-bg-pics/shacho.jpg"); }
-
-.parallax-13-word {
-  background-image: url("portrait-JC.jpg"); }
-
 @-webkit-keyframes bounce {
   20%, 53%, 80% {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -211,6 +157,44 @@ body {
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
             transform: translate3d(0, -4px, 0); } }
+    body .bodycontainer .textwrap {
+      height: 100vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-size: 50px; }
+      @media (max-width: 700px) {
+        body .bodycontainer .textwrap {
+          font-size: 30px; } }
+      @media (max-width: 500px) {
+        body .bodycontainer .textwrap {
+          font-size: 20px; } }
+    body .bodycontainer .typed-cursor {
+      opacity: 1;
+      -webkit-animation: blink 0.7s infinite;
+              animation: blink 0.7s infinite; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 #heartdrawing path {
   fill: transparent;
