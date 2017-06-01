@@ -1,6 +1,7 @@
 $(function() {
   homepagewordfadein();
   arrowfade();
+  topFunction();
 });
 
 function homepagewordfadein(){
@@ -21,6 +22,12 @@ function arrowfade(){
   $('.arrowword').fadeIn(5000);
   $('.arrow').fadeIn(5000);
   $('.linecontainer').delay(3000).fadeIn(100);
+}
+function topFunction(){
+$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
 }
 
 $(window).scroll(function() {
