@@ -438,6 +438,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/arrowdown.png": {
+		"ft": 32768,
+		"iS": 5381,
+		"oA": 0,
+		"oAP": "\/img\/arrowdown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/back-btn.png": {
 		"ft": 32768,
 		"iS": 2849,
