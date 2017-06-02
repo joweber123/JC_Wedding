@@ -1,5 +1,7 @@
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  margin-left: auto;
+  margin-right: auto; }
 
 .picturepage .arrowword {
   position: relative;
@@ -129,15 +131,36 @@ body {
 .picturepage .parallax-9 {
   background-image: url("bus-bg.png"); }
 
-.scrollToTop {
+.button {
   text-align: center;
   text-decoration: none;
   display: block;
-  background-color: #4eb9b9;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
   padding: 6px 0px;
   border-radius: 5px;
   color: white;
-  max-width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  clear: both; }
+  width: 40vw; }
+  .button:hover {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4); }
+
+.scrollToTop {
+  background-color: #4eb9b9;
+  clear: both;
+  float: left;
+  margin-left: 5vw; }
+
+.backHome {
+  background-color: #4eb9b9;
+  float: right;
+  margin-right: 5vw; }
+
+#footer {
+  text-align: center;
+  clear: both;
+  display: block;
+  text-decoration: none;
+  color: gray;
+  padding-top: 10px; }
+  #footer:hover {
+    color: #B6b6b6; }

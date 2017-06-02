@@ -900,6 +900,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/schedule-bg.png": {
+		"ft": 32768,
+		"iS": 50129,
+		"oA": 0,
+		"oAP": "\/img\/schedule-bg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/second-floor.jpg": {
 		"ft": 16384,
 		"iS": 268971,
