@@ -4,6 +4,71 @@ body {
   font-size: 16px;
   line-height: 28px;
   text-align: justify; }
+  body .loader {
+    left: calc(50% - 60px);
+    top: calc(50% - 30px);
+    position: absolute; }
+    body .loader .loader-pic {
+      width: 60px;
+      display: inline;
+      -webkit-transform-origin: bottom;
+              transform-origin: bottom; }
+      body .loader .loader-pic:nth-child(1) {
+        -webkit-animation: wave1 2s ease-in-out infinite;
+                animation: wave1 2s ease-in-out infinite; }
+
+@-webkit-keyframes wave1 {
+  0% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg); }
+  50% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg); }
+  100% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg); } }
+
+@keyframes wave1 {
+  0% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg); }
+  50% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg); }
+  100% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg); } }
+      body .loader .loader-pic:nth-child(2) {
+        -webkit-animation: wave2 2s ease-in-out infinite;
+                animation: wave2 2s ease-in-out infinite; }
+
+@-webkit-keyframes wave2 {
+  0% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg); }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg); }
+  100% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg); } }
+
+@keyframes wave2 {
+  0% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg); }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg); }
+  100% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg); } }
+  body .loader-text {
+    text-align: center;
+    margin-top: calc(50vh + 60px);
+    display: block; }
+  body .whole-page {
+    display: none; }
   body .button {
     text-align: center;
     text-decoration: none;

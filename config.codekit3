@@ -520,6 +520,27 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/chika.jpg": {
+		"ft": 16384,
+		"iS": 20206,
+		"oA": 0,
+		"oAP": "\/img\/chika.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/chika.png": {
+		"ft": 32768,
+		"iS": 47929,
+		"oA": 0,
+		"oAP": "\/img\/chika.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/d-portrait.JPG": {
 		"ft": 16384,
 		"iS": 162295,
@@ -797,6 +818,27 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/james.jpg": {
+		"ft": 16384,
+		"iS": 27098,
+		"oA": 0,
+		"oAP": "\/img\/james.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/james.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/james.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/JC-walking.jpg": {

@@ -1,8 +1,14 @@
 $(function() {
+  loader();
   homepagewordfadein();
   arrowfade();
   topFunction();
 });
+
+function loader() {
+  $(".loader, .loader-text").fadeOut(1);
+  $(".whole-page").fadeIn(600);
+}
 
 function homepagewordfadein(){
   $(".frontcontainer1").hover(function(){
@@ -50,6 +56,8 @@ document.addEventListener('DOMContentLoaded', function(){
         loopCount: null,
     });
 });
+
+
 //simple add class on hover function
 /*
 $(".button").hover(function(){

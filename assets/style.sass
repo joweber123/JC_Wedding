@@ -2,6 +2,44 @@ body
   font-family: 'Raleway', sans-serif
   margin: 0
 
+  .loader
+    left: calc(50% - 60px)
+    top: calc(50% - 30px)
+    position: absolute
+
+    .loader-pic
+      width: 60px
+      display: inline
+
+      transform-origin: bottom
+      &:nth-child(1)
+        animation: wave1 2s ease-in-out infinite
+        @keyframes wave1
+          0%
+            transform: rotate(10deg)
+          50%
+            transform: rotate(-10deg)
+          100%
+            transform: rotate(10deg)
+      &:nth-child(2)
+        animation: wave2 2s ease-in-out infinite
+        @keyframes wave2
+          0%
+            transform: rotate(-10deg)
+          50%
+            transform: rotate(10deg)
+          100%
+            transform: rotate(-10deg)
+
+
+
+  .loader-text
+    text-align: center
+    margin-top: calc(50vh + 60px)
+    display: block
+
+  .whole-page
+    display: none
   .linecontainer
     display: flex
     position: absolute
